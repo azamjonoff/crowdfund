@@ -60,13 +60,12 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
 }
 .header__container {
   padding-top: 5rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  height: 400px;
 }
 /* .sitelogo {
 }
