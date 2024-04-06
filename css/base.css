@@ -50,6 +50,7 @@ h1 {
 
 main {
   flex-grow: 1;
+  background-color: var(--main-bg-color);
 }
 
 /* HEADER STYLES START */
@@ -67,20 +68,18 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-.container {
-}
-.sitelogo {
+/* .sitelogo {
 }
 .sitelogo__img {
 }
 .sitenav {
-}
+} */
 .sitenav__list {
   display: flex;
   gap: 3.2rem;
 }
-.sitenav__item {
-}
+/* .sitenav__item {
+} */
 .sitenav__link {
   color: var(--white-color);
   font-weight: 500;
@@ -92,10 +91,231 @@ main {
   border: 0;
   display: none;
 }
-.header__btn_img {
-}
+/* .header__btn_img {
+} */
 
 /* HEADER STYLES END */
+
+/* HERO SECTION STYLES START */
+
+.main-section {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white-color);
+  padding: 4.8rem;
+  margin-bottom: 2.4rem;
+  border-radius: 0.8rem;
+}
+
+.hero {
+  margin-top: -9.2rem;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__img {
+  margin-top: -7.5rem;
+  margin-bottom: 2.8rem;
+}
+.hero__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1.222em;
+  text-align: center;
+  color: var(--black-color);
+  margin-bottom: 1.5rem;
+}
+.hero__description {
+  font-size: 1.6rem;
+  line-height: 1.22em;
+  text-align: center;
+  color: var(--text-color);
+}
+.hero__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25.6rem;
+}
+.btn__back {
+  padding: 1.8rem 4rem;
+  background-color: var(--primary-color);
+  border-radius: 2.5rem;
+  border: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.22em;
+  color: var(--white-color);
+}
+.btn__book_link {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+/* .btn__book {
+} */
+.btn__book_text {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.22em;
+  color: var(--text-color);
+}
+
+/* HERO SECTION STYLES END */
+
+/* CALCULATOR SECTION START */
+
+/* .calculator {
+}
+.calculator__container {
+}
+.main-section {
+} */
+.calculator__wrapper {
+  display: flex;
+  gap: 4.2rem;
+}
+.calculator__texts {
+  margin-bottom: 3.7rem;
+}
+.calculator__number {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.22em;
+  color: var(--black-color);
+  margin-bottom: 0.8rem;
+}
+.calculator__said {
+  font-size: 1.5rem;
+  line-height: 1.22em;
+  color: var(--text-color);
+}
+.rectangle__between {
+}
+.calculator__rectangle {
+  position: absolute;
+}
+.calculator__rectangle2 {
+  position: relative;
+}
+
+/* CALCULATOR SECTION END */
+
+/* ABOUT SECTION STYLES START */
+
+/* .about {
+}
+.calculator__container {
+}
+.main-section {
+} */
+.about__title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.22em;
+  text-align: center;
+  color: var(--black-color);
+  margin-bottom: 3.5rem;
+}
+.about__description {
+  font-size: 1.6rem;
+  line-height: 1.875em;
+  color: var(--text-color);
+  margin-bottom: 4rem;
+}
+.about__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+.about__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00000026;
+  padding-top: 3.8rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  padding-bottom: 3.2rem;
+  border-radius: 0.8rem;
+  gap: 2.4rem;
+}
+.about ul li:nth-child(3) {
+  opacity: 0.5;
+}
+.about__wrappers {
+  display: flex;
+  justify-content: space-between;
+}
+.about__list_title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.22em;
+  color: var(--black-color);
+}
+.about__list_price {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.22em;
+  text-align: right;
+  color: var(--primary-color);
+}
+.about__list_description {
+  font-size: 1.6rem;
+  line-height: 1.875em;
+  color: var(--text-color);
+}
+.about__list_number {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.about__list_number_title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.22em;
+  color: var(--black-color);
+}
+.about__list_number_text {
+  font-size: 1.5rem;
+  line-height: 1.22em;
+  color: var(--text-color);
+}
+.about_btns {
+  border: none;
+  padding: 1.5rem 3.2rem;
+  border-radius: 2.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.22em;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+.about_btns_disabled {
+  border: none;
+  padding: 1.5rem 3.2rem;
+  border-radius: 2.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.22em;
+  color: var(--white-color);
+  background-color: #2f2f2f;
+  opacity: 0.5;
+}
+
+/* ABOUT SECTION STYLES END */
 
 /* RESPONSIVE DESIGN */
 
