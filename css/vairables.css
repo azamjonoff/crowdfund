@@ -1,6 +1,9 @@
 :root {
-    --white-color: #fff;
-    --black-color: #000;
-    --primary-color: #3cb3ab;
-    --disabled-color: ;
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: #3cb3ab;
+  --disabled-color: #979797;
+  --text-color: #7a7a7a;
+  --main-bg-color: #fafafa;
+  --main-font: "Commissioner", sans-serif;
 }

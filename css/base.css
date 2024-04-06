@@ -31,7 +31,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: "Commissioner", sans-serif;
+  font-family: var(--main-font);
 }
 
 /* normalize css problem fixed */
@@ -50,4 +50,77 @@ h1 {
 
 main {
   flex-grow: 1;
+}
+
+/* HEADER STYLES START */
+
+.header {
+  background-image: url("../images/image-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.header__container {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+}
+.sitelogo {
+}
+.sitelogo__img {
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.header__btn {
+  background-color: transparent;
+  border: 0;
+  display: none;
+}
+.header__btn_img {
+}
+
+/* HEADER STYLES END */
+
+/* RESPONSIVE DESIGN */
+
+/* BREAKPOINTS */
+
+@media (max-width: 475px) {
+  .container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .header__container {
+    padding-top: 3.2rem;
+  }
+
+  .header {
+    background-image: url("../images/image-hero-mobile.jpg");
+    height: 300px;
+  }
+
+  .sitenav {
+    display: none;
+  }
+
+  .header__btn {
+    display: block;
+  }
 }
