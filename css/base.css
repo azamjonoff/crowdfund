@@ -269,6 +269,9 @@ main {
   padding-bottom: 3.2rem;
   border-radius: 0.8rem;
   gap: 2.4rem;
+  -webkit-box-shadow: 8px 2px 56px -31px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 2px 56px -31px rgba(0, 0, 0, 0.75);
+  box-shadow: 8px 2px 56px -31px rgba(0, 0, 0, 0.75);
 }
 .about ul li:nth-child(3) {
   opacity: 0.5;
