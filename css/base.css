@@ -157,11 +157,29 @@ main {
   font-size: 1.6rem;
   line-height: 1.22em;
   color: var(--white-color);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    background-color: var(--active-color);
+  }
 }
 .btn__book_link {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  background-color: rgba(47, 47, 47, 0.05);
+  border-radius: 3rem;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 /* .btn__book {
 } */
@@ -170,6 +188,7 @@ main {
   font-size: 1.6rem;
   line-height: 1.22em;
   color: var(--text-color);
+  padding-right: 2.4rem;
 }
 
 /* HERO SECTION STYLES END */
@@ -302,6 +321,14 @@ main {
   line-height: 1.22em;
   color: var(--white-color);
   background-color: var(--primary-color);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    background-color: var(--active-color);
+  }
 }
 .about_btns_disabled {
   border: none;
