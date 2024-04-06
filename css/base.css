@@ -220,8 +220,8 @@ main {
   line-height: 1.22em;
   color: var(--text-color);
 }
-.rectangle__between {
-}
+/* .rectangle__between {
+} */
 .calculator__rectangle {
   position: absolute;
 }
@@ -288,7 +288,6 @@ main {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.22em;
-  text-align: right;
   color: var(--primary-color);
 }
 .about__list_description {
@@ -370,4 +369,108 @@ main {
   .header__btn {
     display: block;
   }
+  /* .sitenav__inner {
+  }
+  .sitenav__list_inner {
+    width: 375px;
+    position: absolute;
+    border: 1px solid #0000000d;
+    border-radius: 0.5rem;
+    background-color: var(--white-color);
+    visibility: hidden;
+    opacity: 0;
+  }
+  .sitenav__item_inner {
+    padding: 2.4rem;
+  }
+  .sitenav__link_inner {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.22em;
+    color: var(--black-color);
+  } */
+  /* HEADER END */
+
+  /* HERO START */
+
+  .hero {
+    margin-top: -5.5rem;
+  }
+  .main-section {
+    padding: 3.2rem 2.4rem;
+    width: 327px;
+  }
+  .hero__img {
+    margin-top: -3rem;
+  }
+  .hero__btns {
+    gap: 0.9rem;
+  }
+  .btn__back {
+    width: 214px;
+  }
+  .btn__book_text {
+    display: none;
+  }
+
+  /* HERO END */
+
+  /* CALCULATOR START */
+
+  .calculator__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin-bottom: 3.2rem;
+  }
+  .calculator__texts {
+    margin-bottom: 0;
+  }
+  .calculator__number {
+    text-align: center;
+  }
+  .calculator__said {
+    text-align: center;
+  }
+  .rectangle__between {
+    display: none;
+  }
+  .calculator__rectangle {
+    width: 218.27px;
+    border-radius: 0.9rem;
+    margin-left: 2rem;
+  }
+  .calculator__rectangle2 {
+    width: 279px;
+    border-radius: 0.9rem;
+    margin-left: 2rem;
+  }
+
+  /* CALCULATOR END */
+
+  /* ABOUT START */
+
+  .about__description {
+    font-size: 1.4rem;
+    line-height: 1.7em;
+  }
+  .about__wrappers {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__list_title {
+    margin-bottom: 0.8rem;
+  }
+  .about__list_number {
+    margin-bottom: 2.4rem;
+  }
+  .about_btns {
+    width: 157px;
+  }
+  .about_btns_disabled {
+    width: 157px;
+  }
+
+  /* ABOUT END */
 }
